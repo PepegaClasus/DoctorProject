@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "589176309076",
+    "project_id": "doctorproject-ce277",
+    "storage_bucket": "doctorproject-ce277.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:589176309076:android:4a91de59e6a7fedc34b4c1",
+        "android_client_info": {
+          "package_name": "com.example.doctorstesttask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "589176309076-b209kml87gmlc0qdr4aulikn6cklbele.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNY4WwAGjJwByS4sP77rLDf7ns9ghQnoY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "589176309076-b209kml87gmlc0qdr4aulikn6cklbele.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

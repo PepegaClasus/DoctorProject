@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainMenuFragment">
+
+    <fragment
+        android:id="@+id/mainMenuFragment"
+        android:name="com.example.doctorstesttask.mainMenuFragment"
+        android:label="Главный экран"
+        tools:layout="@layout/fragment_main_menu" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.doctorstesttask.ProfileFragment"
+        android:label="Профиль"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/registrationFragment"
+        android:name="com.example.doctorstesttask.RegistrationFragment"
+        android:label="Регистрация"
+        tools:layout="@layout/fragment_registration" />
+    <fragment
+        android:id="@+id/doctorRegistration"
+        android:name="com.example.doctorstesttask.DoctorRegistration"
+        android:label="Доктор"
+        tools:layout="@layout/fragment_doctor_registration" />
+    <fragment
+        android:id="@+id/patientRegistration"
+        android:name="com.example.doctorstesttask.PatientRegistration"
+        android:label="Пациент"
+        tools:layout="@layout/fragment_patient_registration" />
+    <fragment
+        android:id="@+id/balance"
+        android:name="com.example.doctorstesttask.Balance"
+        android:label="Баланс"
+        tools:layout="@layout/fragment_balance" />
+</navigation>
